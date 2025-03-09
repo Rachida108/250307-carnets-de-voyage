@@ -3,7 +3,12 @@
 ## HTML
 - Utilisation des balises sémantiques quand justifié.
 - L'affichage des titres en majuscules doit se faire EXCLUSIVEMENT à l'aide de la CSS
-- Utilisation de la balise <address> dans "Me contacter"
+- Utilisation de la balise <address> dans "Me contacter" 
+// pour le téléphone : <address>
+<a href="mailto:jim@example.com">jim@example.com</a><br />
+<a href="tel:+14155550132">+1 (415) 555‑0132</a>
+</address>
+
 - Utilisation de FontAwesome  pour les pictos.
 
 ## CSS

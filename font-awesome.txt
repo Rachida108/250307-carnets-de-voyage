@@ -1,0 +1,18 @@
+location
+<i class="fa-solid fa-location-dot"></i>
+
+envelope
+<i class="fa-solid fa-envelope"></i>
+
+phone
+<i class="fa-solid fa-phone"></i>
+
+HOW TO USE THEM 
+<ul class="fa-ul">
+  <li><span class="fa-li"><i class="fa-solid fa-check-square"></i></span>...</li>
+  <li><span class="fa-li"><i class="fa-solid fa-check-square"></i></span>...</li>
+  <li><span class="fa-li"><i class="fa-solid fa-spinner fa-pulse"></i></span>...</li>
+  <li><span class="fa-li"><i class="fa-regular fa-square"></i></span>...</li>
+</ul>
+
+

@@ -1,0 +1,214 @@
+*{
+    font-family: "Lato", sans-serif;
+    color:#333;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 900px;
+}
+
+body {
+    margin: 0;
+}
+
+header, body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+header {
+    border: 1px dashed #007eb3;
+}
+
+nav {
+    height: 50px;
+    width: 100%;
+    background: #007eb3;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+nav a, div a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1 {
+    color: #007eb3;
+    font-size: 1.875em;
+    word-spacing: 10px;
+}
+
+h2 {
+    font-size: 1.25em;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 1.042em;
+}
+
+img {
+    padding: 20px;
+}
+
+.rouge {
+    color: red;
+}
+
+.ocre {
+    color: #db7f15;
+}
+
+section {
+    border-bottom: 1px solid #999;
+}
+
+.flexrow {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+
+.flexrow div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.flexrow a {
+    background-color: #007eb3;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+.saisons {
+    padding-bottom: 20px;
+}
+
+table th, td {
+    border: 1px solid #ddd;
+    width: fit-content;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table tr:nth-child(odd) {
+    background-color: #eee;
+}
+
+table th {
+    background-color: #fff;
+}
+
+.apropos {
+    background-image: url(../img/fond.jpg);
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.apropos div {
+    background-color: #fff;
+    width: 450px;
+    height: fit-content;
+    padding: 20px 10px;
+}
+
+.mecontacter a {
+    color: #007eb3;
+    text-decoration: none;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/map-image.png);
+    background-position: center;
+    background-color: #333;
+    max-width: 900px;
+    padding: 30px;
+    height: 300px;
+}
+
+.formulaire input {
+    border-radius: 10px;
+    padding: 5px 15px;
+    height: 40px;
+    width: 400px;
+    border: none;
+}
+
+.formulaire textarea {
+    border-radius: 10px;
+    padding: 5px 15px;
+    height: 150px;
+    width: 400px;
+    border: none;
+}
+
+.formulaire button {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #007eb3;
+    border-radius: 5px;
+    padding: 10px 30px;
+    border: none;
+    margin-top: 15px;
+}
+
+.input-align {
+    justify-content: space-between;
+    height: 150px;
+}
+
+.formulaire-align {
+    width: 900px;
+    justify-content: space-evenly;
+}
+
+.reseaux p {
+    margin-bottom: 0;
+}
+
+.reseaux div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100px;
+    font-size: 25px;
+}
+
+.footer {
+    background-color: #007eb3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.footer p {
+    color: #fff;
+    margin: 0;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: underline;
+}

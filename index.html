@@ -16,16 +16,16 @@
     <header>
         <a href="index.html"><img src="./assets/img/logo.png" /></a>
         <nav    >
-            <a href="#">Carnets de voyages</a>
-            <a href="#">Quand partir ?</a>
-            <a href="#">À propos</a>
-            <a href="#">Mecontacter</a>
+            <a href="#voyages">Carnets de voyages</a>
+            <a href="#quand">Quand partir ?</a>
+            <a href="#apropos">À propos</a>
+            <a href="#contact">Me contacter</a>
         </nav>
         <h1>Carnets de voyage</h1>
     </header>
 
     <main class="container">
-        <h2>Mes derniers voyages</h2>
+        <h2 id="voyages">Mes derniers voyages</h2>
 
         <section>         
             <h3>Vienne, Autriche</h3>
@@ -52,7 +52,7 @@
         </div>
         </section>
 
-        <section class="saisons">
+        <section class="saisons" id="quand">
             <h2>Les meilleures saisons pour voyager</h2>
             <table>
                 <thead>
@@ -92,7 +92,7 @@
             </table>
         </section>
 
-        <section class="apropos">
+        <section class="apropos" id="apropos">
             
             <div>
                 <h2> À propos</h2>
@@ -101,9 +101,10 @@
                 <p>Ma passion pour le voyage est désormais devenu mon métier.</p>
                 <p>Vous pourrez trouver ici de l'inspiration et de nombreux conseils pour réduire votre budget voyages et pouvoir partir plus souvent.</p>
             </div>
+
         </section>
 
-        <section>
+        <section id="contact">
             <div class="mecontacter">
                 <h2>Me contacter</h2>
                 <ul class="fa-ul">
@@ -114,7 +115,7 @@
             </div>         
             <div>
                 <h3>Formulaire de contact</h3>
-                <form class="formulaire" action="contact.php" method="post">
+                <form class="formulaire" action="/" method="post">
                     
                     <div class="flexrow formulaire-align">
                         <div class="input-align">
@@ -134,10 +135,10 @@
             <div class="reseaux">
                 <p>Suivez-moi sur :</p>
                 <div>
-                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
-                    <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-square-pinterest"></i></a>
-                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-facebook facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-pinterest pinterest"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram instagram"></i></a>
                 </div>                 
             </div>
         </section>
@@ -145,8 +146,8 @@
     </main>
     <footer class="footer">
         <a href="https://3wacademy.fr/"><img src="./assets/img/logo-3wa.png"alt="logo de 3w academy" /></a>
-        <p>Ce matériel pédagogique est la propriété de la <a href="https://3wacademy.fr">3W Academy</a>. Cet exercice a été réalisé par <a href="#">Christiane Dumont</a>.</p>
-        <p>Images fournies par <a href="https://pixabay.com/fr/">Pixabay</a>.</p>
+        <p>Ce matériel pédagogique est la propriété de la <a href="https://3wa.fr/propriete-materiel-pedagogique">3W Academy</a>. Cet exercice a été réalisé par <a href="https://www.consultantweb.eu/">Christiane Dumont</a>.</p>
+        <p>Images fournies par <a href="https://pixabay.com/">Pixabay</a>.</p>
     </footer>
 </body>
 </html>

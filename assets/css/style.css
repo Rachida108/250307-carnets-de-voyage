@@ -59,11 +59,11 @@ img {
 }
 
 .rouge {
-    color: red;
+    color: #F00;
 }
 
 .ocre {
-    color: #db7f15;
+    color: #CD8C56;
 }
 
 section {
@@ -112,16 +112,18 @@ table th {
 }
 
 .apropos {
-    background-image: url(../img/fond.jpg);
     height: 500px;
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    background-image: url(../img/fond.jpg);
+    background-position: center;
 }
 
 .apropos div {
     background-color: #fff;
-    width: 450px;
+    width: 50%;
     height: fit-content;
     padding: 20px 10px;
 }
@@ -211,4 +213,20 @@ table th {
 .footer a {
     color: #fff;
     text-decoration: underline;
+}
+
+.facebook {
+    color: #4267B2;
+}
+
+.twitter {
+    color: #1da1f2;
+}
+
+.pinterest {
+    color: #bd081c;
+}
+
+.instagram {
+    color: #8948C1;
 }
